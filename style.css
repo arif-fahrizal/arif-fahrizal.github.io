@@ -97,10 +97,6 @@ header {
   background-attachment: fixed;
 }
 
-header > section {
-  animation: fadeInUp 2s;
-}
-
 main{
   display: grid;
   justify-items: center;
