@@ -19,7 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+.text-title{
   font-family: "Permanent Marker", cursive;
   font-size: 3rem;
   text-align: center;
@@ -140,7 +140,7 @@ section{
   text-align: justify;
 }
 
-.social-media h3 {
+.social-media h1 {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 1rem;
