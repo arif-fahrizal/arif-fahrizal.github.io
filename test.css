@@ -19,7 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.text-title{
+.text-title {
   font-family: "Permanent Marker", cursive;
   font-size: 3rem;
   text-align: center;
@@ -29,12 +29,12 @@ span {
   color: var(--main-color);
 }
 
-i{
+i {
   font-size: 25px;
   color: var(--main-color);
 }
 
-body{
+body {
   display: grid;
   justify-items: center;
   font-family: "Poppins", sans-serif;
@@ -42,36 +42,34 @@ body{
 }
 
 /* Navbar */
-nav{
-    position: fixed;
-    bottom: 24%;
-    left: 10px;
-    z-index: 1;
-
+nav {
+  position: fixed;
+  bottom: 24%;
+  left: 10px;
+  z-index: 1;
 }
-nav li{
-    display: flex;
-    width: 3rem;
-    height: 3rem;
-    list-style: none;
-    margin-bottom: .5rem;
-    border-radius: 15px;
-    transition: width .5s ease;
-    background: #0f0f38;
-    box-shadow: inset 5px 5px 10px #060616,
-                inset -5px -5px 10px #18185a;
-    overflow: hidden;
+nav li {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
+  transition: width 0.5s ease;
+  background: #0f0f38;
+  box-shadow: inset 5px 5px 10px #060616, inset -5px -5px 10px #18185a;
+  overflow: hidden;
 }
 
-nav li:hover{
-    width: 8rem;
+nav li:hover {
+  width: 8rem;
 }
 
-nav a{
-    display: grid;
-    grid-template-columns: 50px 30px;
-    align-items: center;
-    text-align: center;
+nav a {
+  display: grid;
+  grid-template-columns: 50px 30px;
+  align-items: center;
+  text-align: center;
 }
 
 nav h4 {
@@ -97,19 +95,19 @@ header {
   background-attachment: fixed;
 }
 
-main{
+main {
   display: grid;
   justify-items: center;
   width: 80%;
   /* background-color: teal; */
 }
 
-section{
+section {
   padding-top: 3rem;
 }
 
 /* ABOUT PAGE ------------------------ */
-#about{
+#about {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 3rem;
@@ -181,7 +179,7 @@ section{
   grid-template-columns: 1fr 1fr;
 }
 
-.journey .title h2{
+.journey .title h2 {
   font-size: 2rem;
   text-align: center;
   letter-spacing: 3px;
@@ -225,7 +223,7 @@ section{
   text-align: center;
 }
 
-.timline-area div ul{
+.timline-area div ul {
   padding-inline: 40px;
   padding-bottom: 5px;
   font-size: 1rem;
@@ -233,7 +231,7 @@ section{
 }
 
 /* ABILITIES */
-#abilities{
+#abilities {
   width: 100%;
   text-align: center;
 }
@@ -244,7 +242,6 @@ section{
   justify-items: center;
   gap: 30px;
   margin-top: 1rem;
-  
 }
 
 .coding {
@@ -489,8 +486,7 @@ footer p {
 /* Responsive */
 
 @media (max-width: 767.97px) {
-
-  .text-title{
+  .text-title {
     font-size: 2rem;
   }
 
@@ -535,29 +531,29 @@ footer p {
     background-attachment: initial;
   }
 
-  header h2{
+  header h2 {
     font-size: 1rem;
   }
 
-  main{
+  main {
     width: 95%;
   }
 
-  #about{
+  #about {
     grid-template-columns: 1fr;
     justify-items: center;
   }
 
-  #about img{
+  #about img {
     width: 200px;
     height: 300px;
   }
 
-  .journey{
+  .journey {
     grid-template-columns: 1fr;
   }
 
-  .journey .title h2{
+  .journey .title h2 {
     font-size: 1.5rem;
   }
 
@@ -567,31 +563,30 @@ footer p {
     padding: 5px;
     font-size: 1rem;
   }
-  .timline-area div ul{
+  .timline-area div ul {
     padding-inline: 25px;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
-  .skills{
+  .skills {
     grid-template-columns: 1fr;
   }
 
-  .project-main{
+  .project-main {
     grid-template-columns: 1fr 1fr;
   }
 
-  .project-card{
+  .project-card {
     height: 100px;
   }
 
-  #contact{
+  #contact {
     grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  h1{
+  h1 {
     font-size: 2.5rem;
   }
 
@@ -635,21 +630,21 @@ footer p {
     background-position: 20%;
   }
 
-  main{
+  main {
     width: 90%;
   }
 
-  #about{
+  #about {
     /* grid-template-columns: 1fr;   */
     justify-items: center;
     align-items: center;
   }
 
-  #about img{
+  #about img {
     height: 400px;
   }
 
-  .profile p{
+  .profile p {
     font-size: 12px;
   }
 
@@ -659,13 +654,11 @@ footer p {
     padding: 5px;
     font-size: 1.3rem;
   }
-  .timline-area div ul{
+  .timline-area div ul {
     padding-inline: 25px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-  .project-card{
+  .project-card {
     height: 150px;
   }
-
-
 }
